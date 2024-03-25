@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/yolov9/yolov9/Traffic_Dataset/train/images
+val: /content/drive/MyDrive/yolov9/yolov9/Traffic_Dataset/valid/images
+
+
+nc: 9
+names: ['bus', 'car', 'microbus', 'motorbike', 'pickup-van', 'truck', 'auto', 'Tempo-traveller', 'Tractor']
+
+# roboflow:
+#   workspace: lynkeus
+#   project: vehicle-detection-mgjdd
+#   version: 3
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/lynkeus/vehicle-detection-mgjdd/dataset/3
